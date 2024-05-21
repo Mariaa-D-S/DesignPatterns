@@ -18,6 +18,11 @@ public class Person implements Observer{
         this.instructor = trainer;
     }
 
+    public void setTrainingStrategy(TrainingStrategy trainingStrategy){
+        //double price = this.getPrice();
+        trainingStrategy.train();
+    }
+
 
     public String getName() {
         return name;

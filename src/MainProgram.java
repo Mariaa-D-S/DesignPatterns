@@ -22,4 +22,5 @@ public class MainProgram implements TrainingProgram{
     public String programDescription() {
         return "The main program";
     }
+
 }

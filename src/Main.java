@@ -15,14 +15,17 @@ public class Main {
         instructor.subscribe(exerciser1);
         instructor.subscribe(exerciser3);
         instructor.setTrainingProgram(program1);
+        exerciser3.setTrainingStrategy(new Train5DaysAWeek());
 
         instructor1.subscribe(exerciser2);
         instructor1.setTrainingProgram(program2);
+        exerciser2.setTrainingStrategy(new TrainEveryDay());
 
         TrainingProgram program3 = new StrengthTraining(program1,20);
         TrainingProgram program4 = new CardioTraining(program2, "5km");
 
         exerciser1.update(program3);
+        exerciser1.setTrainingStrategy(new Train3DaysAWeek());
         exerciser2.update(program4);
         instructor.unsubscribe(exerciser3);
 
