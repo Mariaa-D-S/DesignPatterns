@@ -6,8 +6,8 @@ The MainProgram class likely has a private constructor and a static method that 
 
 
 Strategy Pattern:
-Allows defining a family of algorithms (training programs) and making them interchangeable.
-The TrainingProgram interface represents the strategy, and classes like Program and MainProgram implement this interface. These implementations encapsulate different types for training programs.
+Allows defining a family of algorithms (training strategy) and making them interchangeable.
+The TrainingStrategy interface represents the strategy, and classes like Train3DaysAWeek, Train5DaysAWeek and TrainEveryDay implement this interface. These implementations encapsulate different count for training days for each person.
 
 
 Decorator Pattern:
