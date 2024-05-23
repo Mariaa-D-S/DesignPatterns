@@ -19,7 +19,6 @@ public class Person implements Observer{
     }
 
     public void setTrainingStrategy(TrainingStrategy trainingStrategy){
-        //double price = this.getPrice();
         trainingStrategy.train();
     }
 
