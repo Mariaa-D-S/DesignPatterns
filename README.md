@@ -1,8 +1,8 @@
 # DesignPatterns
 
 Singleton Pattern:
-Ensures that the MainProgram class has only one instance throughout the application.
-The MainProgram class likely has a private constructor and a static method that provides access to the single instance.
+Ensures that the Fitness class has only one instance throughout the application.
+The Fitness class likely has a private constructor and a static method that provides access to the single instance.
 
 
 Strategy Pattern:
